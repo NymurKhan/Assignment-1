@@ -214,13 +214,13 @@
 }
 
 .coming-soon {
-    margin: 20px auto;
-    width: 90%;
+    margin: 200px auto;
+    width: 95%;
     height: 600px;
-    flex-shrink: 100%;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     background-size: 100% 100%;
     padding-bottom: 140px;
 }
@@ -585,6 +585,16 @@ position: absolute;
     height: 25px;
     padding-top: 28px;
     margin: 4px;
+}
+.contact a{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+text-decoration: none;
+padding-top: 24px;
 }
 
 .foot-bottom {
